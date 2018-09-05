@@ -1,0 +1,4 @@
+ curl -u USER https://api.github.com/user/repos -d '{ "name": "REPO" }'
+
+
+Change USER to git hub user name and add repo name at REPO
