@@ -1,0 +1,1 @@
+sudo virt-install --name=Centos7-2 --description "Gdisk test" --os-type=Linux  --ram=2048 --vcpus=2 --disk path=/var/lib/libvirt/images/centos7-2.img,bus=virtio,size=100 --graphics none --location /var/"ISO's"/<name of iso> --network bridge:virbr0 --extra-args console=ttyS0
